@@ -82,10 +82,3 @@ This project follows modern clean-code principles. Contributions to the NLP inte
 
 ---
 
-## 📄 License
-
-Developed by **VedantVH**. Licensed under the **MIT License**.
-
----
-
-> *"Engineering high-fidelity interactions through code."* 🚀
