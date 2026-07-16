@@ -1,4 +1,4 @@
-# 🤖 Pratinik AI: Advanced NLP-Powered Chatbot System 🚀
+#  Pratinik AI: Advanced NLP-Powered Chatbot System 
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-05998b?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
