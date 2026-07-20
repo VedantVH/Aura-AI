@@ -1,5 +1,5 @@
 """
-FastAPI backend for the AI Chatbot.
+Aura AI — FastAPI NLP Inference Backend
 Run with: uvicorn src.app_api:app --reload --port 8000
 """
 import json
@@ -15,7 +15,7 @@ nltk.download('punkt_tab', quiet=True)
 nltk.download('wordnet', quiet=True)
 nltk.download('omw-1.4', quiet=True)
 
-app = FastAPI(title="Pratinik Infotech Chatbot API")
+app = FastAPI(title="Aura AI — Intelligent Support API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -75,4 +75,4 @@ async def chat(query: str):
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "service": "Pratinik Infotech Chatbot API"}
+    return {"status": "ok", "service": "Aura AI — Intelligent Support API"}

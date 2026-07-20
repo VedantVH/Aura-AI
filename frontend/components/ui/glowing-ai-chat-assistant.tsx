@@ -93,7 +93,7 @@ export function FloatingAiAssistant() {
           {
             id: Math.random().toString(36).substr(2, 9),
             role: "bot",
-            text: "Hi there! 👋 I'm your Pratinik Support Assistant. How can I brighten your day and help you out?",
+            text: "Hello! 👋 I'm Aura, your intelligent support assistant. How can I help you today?",
             tag: "greeting",
             confidence: 1,
             timestamp: new Date(),
@@ -167,7 +167,7 @@ export function FloatingAiAssistant() {
         {
           id: Math.random().toString(36).substr(2, 9),
           role: "bot",
-          text: "Oops! It seems I can't reach my server right now. Let's try again in a moment. 🛠️",
+          text: "Unable to reach the inference server. Please ensure the backend is running and try again.",
           tag: "error",
           timestamp: new Date(),
         },
@@ -190,7 +190,7 @@ export function FloatingAiAssistant() {
         {
           id: Math.random().toString(36).substr(2, 9),
           role: "bot",
-          text: "Fresh start! What can I assist you with now? 😊",
+          text: "Ready to assist. What can I help you with?",
           tag: "greeting",
           confidence: 1,
           timestamp: new Date(),
@@ -203,7 +203,7 @@ export function FloatingAiAssistant() {
 
   return (
     <>
-      {/* ── GOD LEVEL Floating Trigger Button ──────────────────────── */}
+      {/* Floating trigger button */}
       <AnimatePresence>
         {!isOpen && (
           <motion.button
@@ -231,7 +231,7 @@ export function FloatingAiAssistant() {
         )}
       </AnimatePresence>
 
-      {/* ── GOD LEVEL Chat Panel with Spring Physics ────────────────────────────────────── */}
+      {/* Chat panel with spring physics */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

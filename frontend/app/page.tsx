@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-slate-50 flex flex-col items-center justify-center text-slate-800 relative overflow-hidden font-sans">
-      {/* GOD Level Mouse Tracking Aura */}
+      {/* Spring-physics mouse-tracking ambient layer */}
       <motion.div
         style={{
           x: auraX,
@@ -83,12 +83,12 @@ export default function Home() {
           transition={{ delay: 0.3, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-xl md:text-2xl text-slate-600 mb-16 font-medium leading-relaxed max-w-2xl"
         >
-          Welcome to Pratinik Infotech support. Experience the next generation
-          of AI-powered assistance with fluid, natural interactions.
-        </motion.p>
+          Your intelligent support companion — powered by advanced NLP and
+           designed for fluid, natural conversations.
+         </motion.p>
       </div>
 
-      {/* Floating Chatbot */}
+      {/* Chatbot */}
       <Chatbot />
     </main>
   );
