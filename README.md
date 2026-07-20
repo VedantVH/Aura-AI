@@ -1,11 +1,13 @@
-#  Pratinik AI: Advanced NLP-Powered Chatbot System 
+# 🤖 Aura AI: Advanced NLP-Powered Chatbot System 
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-05998b?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-ff0055?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776ab?style=for-the-badge&logo=python)](https://www.python.org/)
 
-Pratinik AI is a high-performance, full-stack chatbot solution featuring a Python-based NLP core and a modern Next.js frontend. It leverages advanced motion physics and real-time streaming to deliver a seamless, low-latency user experience.
+> **Note**: This project was developed as an internship project for **Pratinik Infotech**.
+
+Aura AI is a high-performance, full-stack chatbot solution featuring a Python-based NLP core and a modern Next.js frontend. It leverages advanced motion physics and real-time streaming to deliver a seamless, low-latency user experience.
 
 ---
 
@@ -39,8 +41,8 @@ The project is architected as a decoupled micro-service system:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/VedantVH/Pratinik-AI-Chatbot.git
-cd Pratinik-AI-Chatbot
+git clone https://github.com/VedantVH/aura-ai-chatbot.git
+cd aura-ai-chatbot
 ```
 
 ### 2. Backend Environment Setup 🐍
@@ -67,7 +69,7 @@ npm run dev
 ## 📂 Project Structure
 
 ```bash
-Pratinik-AI-Chatbot/
+aura-ai-chatbot/
 ├── data/               # Raw intent datasets (JSON)
 ├── src/                # Backend API and training logic
 ├── models/             # Serialized model artifacts (.pkl)
@@ -81,4 +83,3 @@ Pratinik-AI-Chatbot/
 This project follows modern clean-code principles. Contributions to the NLP intent engine or the animation system are welcome via pull requests.
 
 ---
-
