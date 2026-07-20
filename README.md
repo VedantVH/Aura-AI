@@ -41,8 +41,8 @@ The project is architected as a decoupled micro-service system:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/VedantVH/aura-ai-chatbot.git
-cd aura-ai-chatbot
+git clone https://github.com/VedantVH/enterprise-nlp-chatbot.git
+cd enterprise-nlp-chatbot
 ```
 
 ### 2. Backend Environment Setup 🐍
@@ -69,7 +69,7 @@ npm run dev
 ## 📂 Project Structure
 
 ```bash
-aura-ai-chatbot/
+enterprise-nlp-chatbot/
 ├── data/               # Raw intent datasets (JSON)
 ├── src/                # Backend API and training logic
 ├── models/             # Serialized model artifacts (.pkl)
